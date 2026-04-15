@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9;
+  --foreground: #0c0a09;
+  --muted: #78716c;
+  --card: #ffffff;
+  --card-border: #e7e5e4;
+  --primary: #0f766e;
+  --primary-foreground: #f0fdfa;
+  --secondary: #1e3a5f;
+  --secondary-foreground: #f8fafc;
+  --accent: #c2410c;
+  --accent-foreground: #fff7ed;
+  --ring: #0f766e;
+}
+
+.dark {
+  --background: #0c0a09;
+  --foreground: #fafaf9;
+  --muted: #a8a29e;
+  --card: #1c1917;
+  --card-border: #292524;
+  --primary: #2dd4bf;
+  --primary-foreground: #042f2e;
+  --secondary: #93c5fd;
+  --secondary-foreground: #0f172a;
+  --accent: #fb923c;
+  --accent-foreground: #431407;
+  --ring: #2dd4bf;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-card-border: var(--card-border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+@keyframes hero-fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero {
+  animation: hero-fade 0.8s ease-out forwards;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 28s linear infinite;
+}
