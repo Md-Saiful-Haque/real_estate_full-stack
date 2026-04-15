@@ -1,11 +1,35 @@
-নিজের পরিচয়: আপনার সম্পর্কে বিস্তারিত বলুন।
-HTML Properties & Attributes: HTML-এ প্রোপার্টি এবং অ্যাট্রিবিউট বলতে কী বোঝায়?
-Semantic Tags: সেমান্টিক ট্যাগ কী? কিছু উদাহরণ দিন।
-Pseudo Element: সিউডো এলিমেন্ট কী? একটি উদাহরণ দিয়ে বুঝিয়ে বলুন।
-CSS Position: পজিশন প্রোপার্টি ব্যাখ্যা করুন। বিশেষ করে Absolute এবং Relative পজিশনের মধ্যে পার্থক্য কী?
-Callback Function: কলব্যাক ফাংশন কী এবং কেন ব্যবহার করা হয়?
-Undefined vs Null: Undefined এবং Null-এর মধ্যে মূল পার্থক্যগুলো কী?
-Higher-order Function: হায়ার-অর্ডার ফাংশন বলতে কী বোঝায়?
-Context API: কনটেক্সট এপিআই কী? এটি কীভাবে কাজ করে?
-useEffect vs useState: এই দুইটির কাজ কী এবং এদের মধ্যে পার্থক্য কোথায়?
-Virtual DOM: ভার্চুয়াল ডম কী? রিয়েল ডম (Real DOM) এবং ভার্চুয়াল ডমের পার্থক্য কী?
+# UrbanEstate - Modern Real Estate Marketplace (Next.js + TypeScript)
+
+UrbanEstate is a full-stack, high-performance real estate platform built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This project demonstrates modern web development practices including Server-Side Rendering (SSR), Static Site Generation (SSG), and a robust type-safe architecture.
+
+## 🚀 Live Demo
+[Live Site Link]https://real-estate-xi-green.vercel.app
+
+---
+
+## ✨ Key Features
+
+- **Type-Safe Architecture:** Built with **TypeScript** for better developer experience and bug-free code.
+- **Next.js Power:** Leverages the **App Router**, Server Components, and optimized image handling.
+- **Secure Authentication:** User registration and login managed NextAuth.js.
+- **Property Listings:** Users can post, edit, and manage their properties (Sale/Rent).
+- **Advanced Filtering:** Powerful search functionality based on location, price, and category.
+- **Responsive UI:** A sleek, mobile-first design crafted with **Tailwind CSS** and **Headless UI/Shadcn**.
+- **SEO Optimized:** Dynamic metadata and server-side rendering for better search engine visibility.
+
+---
+
+## 🛠️ Tech Stack
+
+- Next js
+- TypeScript
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Md-Saiful-Haque/real_estate_full-stack.git](https://github.com/Md-Saiful-Haque/real_estate_full-stack.git)
+cd real_estate_full-stack
